@@ -277,3 +277,6 @@ function getRandomPhylum(phylums) {
 }
 
 console.log(getRandomPhylum(phylums));
+const body = document.querySelector("#as");
+let answer = `${getRandomPhylum(phylums)}`;
+body.textContent = answer;
